@@ -15,6 +15,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE Class SET Duration= '{{Table1.updatedRow.Duration}}', DateTime= '{{Table1.updatedRow.DateTime}}' WHERE ClassID= '{{Table1.updatedRow.ClassID}}';",
