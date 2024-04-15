@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Home",
+    "slug": "home",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 480,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Select_Class1",
-              "name": "Select_Class1",
+              "id": "Home_Select_Class2",
+              "name": "Select_Class2",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -42,8 +42,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_Total_record_Class1",
-              "name": "Total_record_Class1",
+              "id": "Home_Total_record_Class2",
+              "name": "Total_record_Class2",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -53,14 +53,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "661c53957ee6db6a4d5e9220_661c53957ee6db6a4d5e9222"
