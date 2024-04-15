@@ -14,7 +14,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "totalRecordsCount"},
         {"key": "primaryColumns.ClassID.computedValue"},
         {"key": "primaryColumns.Duration.computedValue"},
@@ -23,7 +22,8 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 3,
