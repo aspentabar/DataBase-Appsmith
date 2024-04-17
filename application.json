@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "List of Students",
+      "isDefault": false
+    },
+    {
+      "id": "List of Traveler",
+      "isDefault": false
+    },
+    {
+      "id": "List of Teachers - Traveler ",
+      "isDefault": false
+    },
+    {
       "id": "Traveler Language Page",
       "isDefault": false
     },
@@ -17,7 +29,11 @@
       "isDefault": true
     },
     {
-      "id": "List of Teachers",
+      "id": "classes",
+      "isDefault": false
+    },
+    {
+      "id": "List of Teachers - Student",
       "isDefault": false
     }
   ],

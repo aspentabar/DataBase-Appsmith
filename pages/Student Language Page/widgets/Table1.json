@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_Language4.run();\n            Total_record_Language4.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 14,
+    "topRow": 20,
     "isSortable": true,
     "onPageChange": "{{\n            Select_Language4.run();\n            Total_record_Language4.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -21,7 +21,7 @@
         {"key": "primaryColumns.Name.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 2,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -62,7 +62,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713324524972,
-    "originalBottomRow": 98,
+    "originalBottomRow": 84,
     "primaryColumnId": "LanguageID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -76,7 +76,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 97,
+    "bottomRow": 84,
     "columnWidthMap": {
         "DifficultyLevel": 183,
         "Name": 170
@@ -190,7 +190,7 @@
     "key": "l31l4x0lsp",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 31,
     "textSize": "0.875rem",
     "widgetId": "5uu7i3rnew",
     "allowAddNewRow": true,
@@ -205,7 +205,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 15,
+    "originalTopRow": 20,
     "mobileLeftColumn": 2,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
