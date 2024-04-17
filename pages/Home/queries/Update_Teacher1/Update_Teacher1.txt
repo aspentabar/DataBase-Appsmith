@@ -1,0 +1,1 @@
+UPDATE Teacher SET Name= '{{Table3.updatedRow.Name}}', Age= '{{Table3.updatedRow.Age}}', Email= '{{Table3.updatedRow.Email}}', Education= '{{Table3.updatedRow.Education}}', Salary= '{{Table3.updatedRow.Salary}}', NativeLanguage= '{{Table3.updatedRow.NativeLanguage}}' WHERE TeacherID= '{{Table3.updatedRow.TeacherID}}';

@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Traveler
+ORDER BY
+  {{Table4.sortOrder.column || 'TravelerID'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table4.pageSize}}
+OFFSET
+  {{Table4.pageOffset}}

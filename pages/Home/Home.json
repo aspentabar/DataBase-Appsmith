@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 3300,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,21 +29,84 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_Select_Class2",
-              "name": "Select_Class2",
+              "id": "Home_Select_Language1",
+              "name": "Select_Language1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table1.pageSize",
                 "Table1.pageOffset",
-                "Table1.sortOrder.column || 'ClassID'"
+                "Table1.sortOrder.column || 'LanguageID'"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Home_Total_record_Class2",
-              "name": "Total_record_Class2",
+              "id": "Home_Select_Student1",
+              "name": "Select_Student1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.pageSize",
+                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table2.pageOffset",
+                "Table2.sortOrder.column || 'StudentID'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Select_Teacher1",
+              "name": "Select_Teacher1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table3.sortOrder.column || 'TeacherID'",
+                "Table3.pageOffset",
+                "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table3.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Select_Traveler1",
+              "name": "Select_Traveler1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table4.pageOffset",
+                "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table4.sortOrder.column || 'TravelerID'",
+                "Table4.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Total_record_Language1",
+              "name": "Total_record_Language1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Total_record_Student1",
+              "name": "Total_record_Student1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Total_record_Teacher1",
+              "name": "Total_record_Teacher1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Total_record_Traveler1",
+              "name": "Total_record_Traveler1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

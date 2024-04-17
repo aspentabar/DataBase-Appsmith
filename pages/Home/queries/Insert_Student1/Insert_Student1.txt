@@ -1,0 +1,1 @@
+INSERT INTO Student (Grades,Name,Age,Email,CountryOfOrigin,NativeLanguage) VALUES ('{{(Table2.newRow || {}).Grades}}','{{(Table2.newRow || {}).Name}}','{{(Table2.newRow || {}).Age}}','{{(Table2.newRow || {}).Email}}','{{(Table2.newRow || {}).CountryOfOrigin}}','{{(Table2.newRow || {}).NativeLanguage}}')

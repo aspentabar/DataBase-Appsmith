@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Teacher
+ORDER BY
+  {{Table3.sortOrder.column || 'TeacherID'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table3.pageSize}}
+OFFSET
+  {{Table3.pageOffset}}

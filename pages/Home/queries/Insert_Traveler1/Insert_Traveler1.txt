@@ -1,0 +1,1 @@
+INSERT INTO Traveler (Name,Age,Email,CountryOfOrigin,NativeLanguage) VALUES ('{{(Table4.newRow || {}).Name}}','{{(Table4.newRow || {}).Age}}','{{(Table4.newRow || {}).Email}}','{{(Table4.newRow || {}).CountryOfOrigin}}','{{(Table4.newRow || {}).NativeLanguage}}')

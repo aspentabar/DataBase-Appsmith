@@ -1,0 +1,1 @@
+INSERT INTO Language (DifficultyLevel,Name) VALUES ('{{(JSONForm1.formData || {}).DifficultyLevel}}','{{(JSONForm1.formData || {}).Name}}')

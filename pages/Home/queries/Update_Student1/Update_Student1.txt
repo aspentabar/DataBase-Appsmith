@@ -1,0 +1,1 @@
+UPDATE Student SET Grades= '{{Table2.updatedRow.Grades}}', Name= '{{Table2.updatedRow.Name}}', Age= '{{Table2.updatedRow.Age}}', Email= '{{Table2.updatedRow.Email}}', CountryOfOrigin= '{{Table2.updatedRow.CountryOfOrigin}}', NativeLanguage= '{{Table2.updatedRow.NativeLanguage}}' WHERE StudentID= '{{Table2.updatedRow.StudentID}}';

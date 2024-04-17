@@ -1,0 +1,1 @@
+UPDATE Traveler SET Name= '{{Table4.updatedRow.Name}}', Age= '{{Table4.updatedRow.Age}}', Email= '{{Table4.updatedRow.Email}}', CountryOfOrigin= '{{Table4.updatedRow.CountryOfOrigin}}', NativeLanguage= '{{Table4.updatedRow.NativeLanguage}}' WHERE TravelerID= '{{Table4.updatedRow.TravelerID}}';
