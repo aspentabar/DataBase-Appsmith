@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Student Language Page",
+    "pageId": "Teacher Language Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{StudentPostForm.formData}}",
+      "body": "{{PostLangForm.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -40,7 +40,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -53,15 +53,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "StudentPostForm.formData"
+      "PostLangForm.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-15T06:16:50Z"
+    "createdAt": "2024-04-17T02:53:31Z"
   },
-  "id": "Student Language Page_POSTL",
+  "id": "Teacher Language Page_POSTL",
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661cc652a3d29b12fc43609b"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f39aba3d29b12fc436136"
 }

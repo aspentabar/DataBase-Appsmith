@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Student Language Page",
+    "pageId": "Traveler Language Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{StudentPostForm.formData}}",
+      "body": "{{TravelerPostForm.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -53,15 +53,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "StudentPostForm.formData"
+      "TravelerPostForm.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-15T06:16:50Z"
+    "createdAt": "2024-04-17T02:51:35Z"
   },
-  "id": "Student Language Page_POSTL",
+  "id": "Traveler Language Page_POSTL",
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661cc652a3d29b12fc43609b"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f3937a3d29b12fc436134"
 }

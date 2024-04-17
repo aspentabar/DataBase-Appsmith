@@ -1,7 +1,11 @@
 {
   "pages": [
     {
-      "id": "Home2",
+      "id": "Traveler Language Page",
+      "isDefault": false
+    },
+    {
+      "id": "Teacher Language Page",
       "isDefault": false
     },
     {
@@ -13,7 +17,7 @@
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "List of Teachers",
       "isDefault": false
     }
   ],

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Student Language Page",
-    "slug": "student-language-page",
+    "name": "Traveler Language Page",
+    "slug": "traveler-language-page",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Student Language Page_Select_Language4",
-              "name": "Select_Language4",
+              "id": "Traveler Language Page_Select_Language2",
+              "name": "Select_Language2",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -41,8 +41,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Student Language Page_Total_record_Language4",
-              "name": "Total_record_Language4",
+              "id": "Traveler Language Page_Total_record_Language2",
+              "name": "Total_record_Language2",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -52,7 +52,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Student Language Page",
+        "id": "Traveler Language Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -63,5 +63,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661c9126a3d29b12fc43603f"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f35b7a3d29b12fc43611c"
 }

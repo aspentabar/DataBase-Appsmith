@@ -1,1 +1,0 @@
-UPDATE Learner SET Age= '{{Table1.updatedRow.Age}}', Email= '{{Table1.updatedRow.Email}}', CountryOfOrigin= '{{Table1.updatedRow.CountryOfOrigin}}', Name= '{{Table1.updatedRow.Name}}', NativeLanguage= '{{Table1.updatedRow.NativeLanguage}}' WHERE LearnerID= '{{Table1.updatedRow.LearnerID}}';
