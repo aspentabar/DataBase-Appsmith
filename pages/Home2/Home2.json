@@ -1,26 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Home2",
+    "slug": "home2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 840,
+          "bottomRow": 1292,
           "containerStyle": "none",
-          "snapRows": 76,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 780,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,21 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Select_Learner1",
-              "name": "Select_Learner1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'LearnerID'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Total_record_Learner1",
-              "name": "Total_record_Learner1",
+              "id": "Home2_getProducts",
+              "name": "getProducts",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -52,15 +40,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Home2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f19cfa3d29b12fc4360e5"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f1474a3d29b12fc4360cb"
 }
