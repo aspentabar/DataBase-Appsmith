@@ -1,4 +1,8 @@
 # DataBase-Appsmith
+
+This is the UI for BabbleBuddies! In the home screen, the user can choose to be a student, teacher, or traveler. In the interface, each of these personas can view/edit different database. 
+
+
 Appsmith for DataDase
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
