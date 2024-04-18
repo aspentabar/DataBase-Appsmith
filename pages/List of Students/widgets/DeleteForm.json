@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{DELETEStudent.run().then(() => {\n  GETStudents.run();\n});}}",
-    "topRow": 72,
+    "topRow": 81,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -57,7 +57,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Delete",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 99,
+    "originalBottomRow": 122,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -164,7 +164,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "Grades",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Grades",
                 "originalIdentifier": "Grades",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
@@ -173,7 +173,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 9,
                 "fieldType": "Number Input"
             },
             "Email": {
@@ -252,7 +252,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "Age",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Age",
                 "originalIdentifier": "Age",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
@@ -261,7 +261,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 26,
+                "sourceData": 19,
                 "fieldType": "Number Input"
             },
             "StudentID": {
@@ -283,7 +283,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 200,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -334,10 +334,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 99,
+    "bottomRow": 122,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Delete Students",
     "hideCard": false,
     "mobileRightColumn": 19,
     "parentColumnSpace": 17.9375,
@@ -348,7 +348,7 @@
     "key": "fy3uegt4yd",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 20,
     "widgetId": "wdddfl9sgo",
     "minWidth": 450,
     "parentId": "0",
@@ -357,7 +357,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 72,
+    "originalTopRow": 81,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

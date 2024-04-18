@@ -29,11 +29,15 @@
       "isDefault": true
     },
     {
-      "id": "classes",
+      "id": "classes - students",
       "isDefault": false
     },
     {
       "id": "List of Teachers - Student",
+      "isDefault": false
+    },
+    {
+      "id": "classes - traveler",
       "isDefault": false
     }
   ],

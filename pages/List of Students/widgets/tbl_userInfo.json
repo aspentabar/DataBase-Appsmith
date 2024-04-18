@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_Student1.run();\n            Total_record_Student1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5,
+    "topRow": 14,
     "isSortable": true,
     "onPageChange": "{{\n            Select_Student1.run();\n            Total_record_Student1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -70,7 +70,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713333083872,
-    "originalBottomRow": 59,
+    "originalBottomRow": 72,
     "primaryColumnId": "StudentID",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
@@ -92,7 +92,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 63,
+    "bottomRow": 72,
     "columnWidthMap": {
         "image": 85,
         "gender": 115,
@@ -414,7 +414,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 17,
+    "originalTopRow": 14,
     "mobileLeftColumn": 1,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

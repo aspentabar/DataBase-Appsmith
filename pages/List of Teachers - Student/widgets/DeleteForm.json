@@ -136,7 +136,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 105,
+    "originalBottomRow": 119,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -163,7 +163,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "Salary",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Salary",
                 "originalIdentifier": "Salary",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
@@ -172,7 +172,7 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": 4051,
+                "sourceData": 7703,
                 "fieldType": "Number Input"
             },
             "Email": {
@@ -260,7 +260,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 32,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "Age": {
@@ -273,7 +273,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "Age",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Age",
                 "originalIdentifier": "Age",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DeleteForm.sourceData, DeleteForm.formData, DeleteForm.fieldState)}}",
@@ -282,7 +282,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 65,
+                "sourceData": 37,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -334,7 +334,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 105,
+    "bottomRow": 119,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Delete Teacher",

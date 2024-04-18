@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "classes",
+    "pageId": "classes - traveler",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -43,9 +43,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T05:59:49Z"
+    "createdAt": "2024-04-18T00:15:58Z"
   },
-  "id": "classes_Update_Class1",
+  "id": "classes - traveler_Update_Class1",
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f6555a3d29b12fc4361a4"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_6620663e05dbd86003b49d4d"
 }

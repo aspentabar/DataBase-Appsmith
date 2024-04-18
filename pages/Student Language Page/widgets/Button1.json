@@ -4,7 +4,7 @@
     "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 81,
     "widgetName": "Button1",
-    "onClick": "{{navigateTo('List of Teachers Student', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('List of Teachers - Student', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

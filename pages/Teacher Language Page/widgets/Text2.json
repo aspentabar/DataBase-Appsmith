@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 23,
-    "bottomRow": 28,
+    "topRow": 19,
+    "bottomRow": 25,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 35,
+    "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Don't see a language you want to teach? Add one here!",
     "key": "6y1kakb6nv",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 58,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "046rem6shx",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 23,
     "responsiveBehavior": "fill",
-    "originalTopRow": 23,
+    "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 27,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 28,
-    "fontSize": "1rem",
+    "originalBottomRow": 25,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

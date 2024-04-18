@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "classes",
+    "pageId": "classes - students",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -44,7 +44,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T05:59:49Z"
   },
-  "id": "classes_Insert_Class1",
+  "id": "classes - students_Insert_Class1",
   "deleted": false,
   "gitSyncId": "661c66c77ee6db6a4d5e9233_661f6555a3d29b12fc4361a5"
 }

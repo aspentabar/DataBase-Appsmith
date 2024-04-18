@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "classes",
-    "slug": "classes",
+    "name": "classes - traveler",
+    "slug": "classes-traveler",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "classes_Select_Class1",
+              "id": "classes - traveler_Select_Class1",
               "name": "Select_Class1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -41,7 +41,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "classes_Total_record_Class1",
+              "id": "classes - traveler_Total_record_Class1",
               "name": "Total_record_Class1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -52,7 +52,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "classes",
+        "id": "classes - traveler",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -63,5 +63,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f6538a3d29b12fc43619e"
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_6620663e05dbd86003b49d48"
 }
